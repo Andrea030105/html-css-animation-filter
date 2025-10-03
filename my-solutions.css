@@ -98,3 +98,21 @@
         transform: rotate(0deg);
     }
 }
+
+.ex-12-top-white, .ex-12-bottom-white {
+    animation: ex-12-top 2s linear infinite ;
+}
+
+.ex-12-bottom-white, .ex-12-bottom-white {
+    animation: ex-12-bottom 2s linear infinite ;
+}
+
+@keyframes ex-12-top {
+  0% { left: 10%; }
+  100% {left: 50%;}
+}
+
+@keyframes ex-12-bottom {
+  0% { right: 10%; }
+  100% { right: 50%; }
+}
