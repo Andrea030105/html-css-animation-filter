@@ -60,3 +60,9 @@
     filter: blur(1px) grayscale(75%);
     border-radius: 50%;
 }
+
+.ex-9-img{
+    filter: blur(1px) grayscale(75%);
+    border-radius: 50%;
+    scale: 0.5;
+}
