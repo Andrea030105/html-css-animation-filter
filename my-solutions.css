@@ -26,7 +26,7 @@
     transition: opacity 2s;
 }
 
-.ex-4-square {
+.ex-4-square:hover {
     opacity: 0%;
 }
 
@@ -56,18 +56,18 @@
     filter: grayscale(100%) brightness(150%);
 }
 
-.ex-8-img {
+.ex-8-img:hover {
     filter: blur(1px) grayscale(75%);
     border-radius: 50%;
 }
 
-.ex-9-img {
+.ex-9-img:hover {
     filter: blur(1px) grayscale(75%);
     border-radius: 50%;
     scale: 0.5;
 }
 
-.ex-10-icon {
+.ex-10-icon:hover {
     animation: ex-10 2s linear infinite reverse;
 }
 
@@ -100,31 +100,45 @@
     }
 }
 
-.ex-12-top-white {
+.ex-12-button:hover .ex-12-top-white {
     animation: ex-12-top 2s linear infinite;
 }
 
-.ex-12-bottom-white {
+.ex-12-button:hover .ex-12-bottom-white {
     animation: ex-12-bottom 2s linear infinite;
 }
 
 @keyframes ex-12-top {
     0% {
+        top: -10px;
         left: 10%;
     }
 
+    50% {
+        top: -10px;
+        left: 60%;
+    }
+
     100% {
-        left: 50%;
+        top: -10px;
+        left: 10%;
     }
 }
 
 @keyframes ex-12-bottom {
     0% {
+        bottom: -10px;
         right: 10%;
     }
 
+    50% {
+        bottom: -10px;
+        right: 60%;
+    }
+
     100% {
-        right: 50%;
+        bottom: -10px;
+        right: 10%;
     }
 }
 
